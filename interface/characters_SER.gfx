@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SER_roki_vulovic"
+		texturefile = "gfx/characters/SER/SER_roki_vulovic.dds"
+	}
+}

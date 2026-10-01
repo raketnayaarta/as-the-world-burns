@@ -1,0 +1,33 @@
+add_namespace = omsk_events
+
+#Russian anarchists?
+country_event = {
+	id = omsk_events.1
+	title = omsk_events.1.t
+	desc = omsk_events.1.d
+
+	picture = russian_anarchists-1
+	is_triggered_only = yes
+	trigger = {
+		TAG = {
+	has_decision = reunifyrussia
+
+
+}
+
+	}
+	mean_time_to_happen = { days = 5 }
+	timeout_days = 10
+	major = yes
+	option = {
+		name = omsk_events.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

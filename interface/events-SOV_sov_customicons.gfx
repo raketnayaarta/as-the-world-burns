@@ -1,0 +1,21 @@
+spriteTypes = { 
+	##Icon For: Our country is collapsing!
+	SpriteType = { 
+		name = "SOV_our_country_is_collapsing-1"
+		texturefile = "gfx/interface/events/sov-event/SOV_our_country_is_collapsing-1.dds"
+	}
+
+	##Icon For: Belarus and Caucas are ready to negotiate!
+	SpriteType = { 
+		name = "SOV_belarus_and_caucas_are_ready_to_negotiate-1"
+		texturefile = "gfx/interface/events/sov-event/SOV_belarus_and_caucas_are_ready_to_negotiate-1.dds"
+	}
+
+	##Icon For: A new nation arose!
+	SpriteType = { 
+		name = "SOV_a_new_nation_arose-1"
+		texturefile = "gfx/interface/events/sov-event/SOV_a_new_nation_arose-1.dds"
+	}
+
+ 
+ }

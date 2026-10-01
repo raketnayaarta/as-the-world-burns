@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Russian anarchists?
+	SpriteType = { 
+		name = "russian_anarchists-1"
+		texturefile = "gfx/interface/events/omsk_events-event/russian_anarchists-1.dds"
+	}
+
+ 
+ }

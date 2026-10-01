@@ -1,0 +1,181 @@
+add_namespace = SER_events 
+country_event = {
+	id = SER_events.2
+	title = SER_events.2.t
+	desc = SER_events.2.d
+	picture = SER_serbian_uprising_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		SER = {
+
+		}
+	}
+
+	mean_time_to_happen = { days = 10 }
+	timeout_days = 15
+
+	option = {
+		name = SER_events.2.a
+		trigger = {
+
+		}
+		ai_chance = { factor = 1 }
+		country_event = { id = SER_events.1 days = 10}
+		set_country_flag = yugoslav_civil_war
+		hidden_effect = {
+		}
+	}
+}
+country_event = {
+	id = SER_events.1
+	title = SER_events.1.t
+	desc = SER_events.1.d
+	picture = SER_volunteers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		SER = {
+
+		}
+	}
+
+	mean_time_to_happen = { days = 10 }
+	timeout_days = 15
+
+	option = {
+		name = SER_events.1.a
+		trigger = {
+
+		}
+		ai_chance = { factor = 1 }
+		107 = {
+			create_unit = {
+				division = "name = \"National Vengeance Army\" division_template = \"Civil Defence\" start_experience_factor = 1"
+				owner = SER
+				prioritize_location = 11583
+			}
+		}
+				107 = {
+			create_unit = {
+				division = "name = \"British Peacekeepers\" division_template = \"Civil Defence\" start_experience_factor = 1"
+				owner = SER
+				prioritize_location = 6634
+			}
+		}		
+		107 = {
+			create_unit = {
+				division = "name = \"Soviet Peacekeepers\" division_template = \"Civil Defence\" start_experience_factor = 1"
+				owner = SER
+				prioritize_location = 3609
+			}
+		}		
+		107 = {
+			create_unit = {
+				division = "name = \"Batalion of Montenegro\" division_template = \"Civil Defence\" start_experience_factor = 1"
+				owner = SER
+				prioritize_location = 797
+			}
+		}		
+		107 = {
+			create_unit = {
+				division = "name = \"Bosnian Folk Army\" division_template = \"Civil Defence\" start_experience_factor = 1"
+				owner = SER
+				prioritize_location = 797
+			}
+		}
+		107 = {
+			create_unit = {
+				division = "name = \Romanian volounteers\" division_template = \"Civil Defence\" start_experience_factor = 1"
+				owner = SER
+				prioritize_location = 3956
+			}
+		}
+		107 = {
+			create_unit = {
+				division = "name = \"Bulgarian Insurgents\" division_template = \"Civil Defence\" start_experience_factor = 1"
+				owner = SER
+				prioritize_location = 9599
+			}
+		}
+				
+
+
+		hidden_effect = {
+		}
+	}
+}
+country_event = {
+	id = SER_events.3
+	title = SER_events.3.t
+	desc = SER_events.3.d
+	picture = SER_agreements
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		SER = {
+
+		}
+	}
+
+	mean_time_to_happen = { days = 10 }
+	timeout_days = 15
+
+	option = {
+		name = SER_events.3.a
+		trigger = {
+
+		}
+		hidden_effect = {
+		}
+	}
+}
+country_event = {
+	id = SER_events.4
+	title = SER_events.4.t
+	desc = SER_events.4.d
+	picture = SER_peace_deal
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		SER = {
+		}
+	}
+
+	mean_time_to_happen = { days = 10 }
+	timeout_days = 15
+
+	option = {
+		name = SER_events.4.a
+		trigger = {
+
+		}
+
+		hidden_effect = {
+	     every_other_country = { 
+            limit = { 
+                has_war_with = ROOT
+            }
+            white_peace = ROOT
+        }
+		SER = {
+        transfer_state = 108
+        transfer_state = 803
+        transfer_state = 802
+}
+        SER = {
+		set_national_focus = serbia_victory_focus
+		}
+		}
+	}
+}
+	
+	

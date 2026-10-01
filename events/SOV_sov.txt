@@ -1,0 +1,393 @@
+add_namespace = SOV_sov
+
+#Our country is collapsing!
+country_event = {
+	id = SOV_sov.1
+	title = SOV_sov.1.t
+	desc = SOV_sov.1.d
+
+	picture = SOV_our_country_is_collapsing-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		SOV = {
+
+
+}
+
+	}
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 10
+	option = {
+		name = SOV_sov.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.07
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Belarus and Caucas are ready to negotiate!
+country_event = {
+	id = SOV_sov.2
+	title = SOV_sov.2.t
+	desc = SOV_sov.2.d
+
+	picture = SOV_belarus_and_caucas_are_ready_to_negotiate-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+
+
+
+
+	}
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 7
+	option = {
+		name = SOV_sov.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+	 country_event = { id = SOV_sov.1 days = 7 }
+		}
+	}
+}
+
+#A new nation arose!
+news_event = {
+	id = SOV_sov.3
+	title = SOV_sov.3.t
+	desc = SOV_sov.3.d
+
+	picture = SOV_a_new_nation_arose-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+
+
+}
+
+	
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 5
+	major = yes
+}
+#Novosibirsk uprised!
+country_event = {
+	id = SOV_sov.4
+	title = SOV_sov.4.t
+	desc = SOV_sov.4.d
+
+	picture = SOV_novosibirsk_uprised-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 5 }
+	timeout_days = 10
+	option = {
+		name = SOV_sov.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.1
+
+release = NOV
+country_event = { id = SOV_sov.5 days = 5 }
+
+		hidden_effect = {
+			country_event = {
+   country_event = { id = SOV_sov.5 days = 7 }
+}
+
+
+
+		}
+	}
+	option = {
+		name = SOV_sov.4.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+
+release = NOV
+ country_event = { id = SOV_sov.5 days = 5 }
+NOV = {
+	change_tag_from = ROOT
+
+
+}
+
+		hidden_effect = {
+			country_event = {
+ country_event = { id = SOV_sov.5 days = 5 }
+}
+		}
+
+
+		}
+	}
+	#Siberia uprised!
+country_event = {
+	id = SOV_sov.5
+	title = SOV_sov.5.t
+	desc = SOV_sov.5.d
+
+	picture = SOV_siberia_uprised-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 5 }
+	timeout_days = 10
+	option = {
+		name = SOV_sov.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.1
+
+release = SIB
+ country_event = { id = SOV_sov.6 days = 7 }
+
+		hidden_effect = {
+			country_event = {
+ country_event = { id = SOV_sov.5 days = 5 }
+}
+
+
+
+		}
+	}
+	option = {
+		name = SOV_sov.5.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+ country_event = { id = SOV_sov.6 days = 7 }
+release = SIB
+SIB = {
+	change_tag_from = ROOT
+
+
+}
+
+		hidden_effect = {
+			country_event = {
+ country_event = { id = SOV_sov.6 days = 7 }
+}
+		}
+
+		}
+	}
+country_event = {
+	id = SOV_sov.6
+	title = SOV_sov.6.t
+	desc = SOV_sov.6.d
+
+	picture = SOV_Omsk_uprised-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 5 }
+	timeout_days = 10
+	option = {
+		name = SOV_sov.6.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.1
+ country_event = { id = SOV_sov.7 days = 7 }
+release = OMK
+
+
+		hidden_effect = {
+			country_event = {
+   country_event = { id = SOV_sov.1 days = 7 }
+}
+
+
+
+		}
+	}
+	option = {
+		name = SOV_sov.6.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+ country_event = { id = SOV_sov.7 days = 7 }
+release = OMK
+OMK = {
+	change_tag_from = ROOT
+}
+
+}
+
+		hidden_effect = {
+			country_event = {
+ country_event = { id = SOV_sov.1 days = 7 }
+}
+
+
+
+		}
+	
+}
+country_event = {
+	id = SOV_sov.7
+	title = SOV_sov.7.t
+	desc = SOV_sov.7.d
+
+	picture = SOV_Tomsk_uprised-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 5 }
+	timeout_days = 10
+	option = {
+		name = SOV_sov.7.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.1
+
+release = TMK
+   country_event = { id = SOV_sov.8 days = 7 }
+
+		hidden_effect = {
+			country_event = {
+   country_event = { id = SOV_sov.1 days = 7 }
+}
+
+
+
+		}
+	}
+	option = {
+		name = SOV_sov.7.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+   country_event = { id = SOV_sov.8 days = 7 }
+release = TMK
+TMK = {
+	change_tag_from = ROOT
+}
+
+}
+
+		hidden_effect = {
+			country_event = {
+ country_event = { id = SOV_sov.1 days = 7 }
+}
+
+
+
+		}
+	
+}
+country_event = {
+	id = SOV_sov.8
+	title = SOV_sov.8.t
+	desc = SOV_sov.8.d
+
+	picture = SOV_interventions-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 5 }
+	timeout_days = 10
+	option = {
+		name = SOV_sov.8.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.1
+
+release = USI
+UDK = {
+transfer_state = 408	
+transfer_state = 409
+}
+JAP = {
+transfer_state = 537
+transfer_state = 655
+}
+MON = {
+transfer_state = 329
+}
+PRC = {
+transfer_state = 560	
+transfer_state = 561
+transfer_state = 563
+transfer_state = 657
+}
+
+
+		hidden_effect = {
+			country_event = {
+   country_event = { id = SOV_sov.1 days = 7 }
+}
+
+
+
+		}
+	}
+	option = {
+		name = SOV_sov.8.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+
+release = USI
+UDK = {
+transfer_state = 408	
+transfer_state = 409
+}
+JAP = {
+transfer_state = 537
+transfer_state = 655
+}
+MON = {
+transfer_state = 329
+}
+PRC = {
+transfer_state = 560	
+transfer_state = 561
+transfer_state = 563
+transfer_state = 657
+}
+USI = {
+	change_tag_from = ROOT
+}
+
+}
+
+		hidden_effect = {
+			country_event = {
+ country_event = { id = SOV_sov.1 days = 7 }
+}
+
+
+
+		}
+	
+}

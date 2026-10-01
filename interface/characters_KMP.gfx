@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_KMP_pol_pot"
+		texturefile = "gfx/characters/KMP/pol_pot.dds"
+	}
+		spriteType = {
+		name = "GFX_KMP_pol_potcollapse"
+		texturefile = "gfx/characters/KMP/pol_potcollapse.dds"
+	}
+}

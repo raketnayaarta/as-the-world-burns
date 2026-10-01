@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_vadim_bakatin_vadim_bakatin_large"
+		texturefile = "gfx/characters/vadim_bakatin/vadim_bakatin_vadim_bakatin_large.dds"
+	}
+	spriteType = {
+		name = "GFX_vadim_bakatin_vadim_bakatin_small"
+		texturefile = "gfx/characters/vadim_bakatin/vadim_bakatin_vadim_bakatin_small.dds"
+	}
+	spriteType = {
+		name = "GFX_vadim_bakatin_nikolay_ryzhkov_large"
+		texturefile = "gfx/characters/vadim_bakatin/vadim_bakatin_nikolay_ryzhkov_large.dds"
+	}
+}
