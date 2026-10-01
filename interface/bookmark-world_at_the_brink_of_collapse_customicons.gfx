@@ -1,7 +1,0 @@
-spriteTypes = { 
-	##Icon For: World at the brink of Collapse
-	SpriteType = { 
-		name = "world_at_the_brink_of_collapse-921490"
-		texturefile = "gfx/interface/bookmarks/world_at_the_brink_of_collapse-bookmark/world_at_the_brink_of_collapse-921490.dds"
-	}
-
